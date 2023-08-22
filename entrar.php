@@ -27,6 +27,33 @@
 </header>
 
 
+<!--INICIO DO LOGIN-->
+<div class="login">
+
+<div class="logar">
+<h1>LOGIN</h1>
+
+<form action="" method="post">
+    <input type="email" id="email_usuario" placeholder="Digite seu e-mail">
+    <br>
+    <input type="password" id="senha_usuario" placeholder="Digite sua senha">
+    <br>
+    <input type="button" id="btn_logar" value="ENTRAR">
+</form>
+</div>
+
+<div class="logar" id="logar1">
+   <h3 id="id_hoje">TÊNIS NICK</h3>
+   <p id="p_hoje"> $AOA 4.500,45</p>
+   <img src="img/janela.gif" alt="Tênis_Puma">
+   <a href="#">COMPRAR</a>
+</div>
+
+</div>
+
+
+
+
 
       <!--inserir e Inicio do Rodape-->
 
