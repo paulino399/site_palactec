@@ -45,7 +45,7 @@
 <div class="logar" id="logar1">
    <h3 id="id_hoje">TÊNIS NICK</h3>
    <p id="p_hoje"> $AOA 4.500,45</p>
-   <img src="img/janela.gif" alt="Tênis_Puma">
+   <img src="img/nick.gif" alt="Tênis_Puma">
    <a href="#">COMPRAR</a>
 </div>
 
