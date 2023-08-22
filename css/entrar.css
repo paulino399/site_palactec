@@ -84,7 +84,8 @@ footer{
  }
 
 
- /*************CONFIGURAções do Login *************/
+
+/*************CONFIGURAções da pàgina Entrar *************/
 
 .login{
     display: flex;
@@ -97,7 +98,7 @@ footer{
     border-radius: 10px 10px 0 0;
 }
 
-logar{
+.logar{
     width: 80%;
 }
 
@@ -112,7 +113,6 @@ logar{
     font-weight: 700;
     margin-bottom: 3%;
 }
-
 
 .logar input[type="button"]{
     width: 250px;
@@ -130,7 +130,7 @@ color: var(--cor4);
 }
 
 .logar img{
-    margin-left: 50px;
+    margin-left: -100px;
 }
 
 .logar #id_hoje{
@@ -157,12 +157,10 @@ color: var(--cor4);
     padding: 0.5% 1.5%;
     background-color: var(--cor2);
     color: var(--cor4);
-    margin: 10%  3%;
+    margin: 6% -15%;
     border-radius: 10px;
 }
 .logar a:hover{
     background-color:  var(--cor3);
     cursor: pointer;
 }
-
- 
