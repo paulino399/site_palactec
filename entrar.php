@@ -51,10 +51,6 @@
 
 </div>
 
-
-
-
-
       <!--inserir e Inicio do Rodape-->
 
       <footer>
