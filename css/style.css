@@ -11,5 +11,17 @@
    --cor4:#ffffff;
    --cor5:#667ecd;
    --cor6:#a25b5b;
+}
 
+/* Configurações do navegadores */
+
+*{
+    font-family: 'roboto', sans-serif;
+     font-size: 18px; 
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
