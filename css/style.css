@@ -109,4 +109,37 @@ main{
     font-size: 0.8rem;
 }
 
+/*------Formatação da Promoção dia do Pai------*/
+.promocao img{
+    width: 100%;
+}
+
+
+/*********** Formatação dos pagamentos **************/
+
+.pagamento{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: 1% auto;
+}
+
+.pag{
+    padding: 1%;
+}
+
+.pag h3{
+     color: var(--cor4);
+}
+
+.pag p{
+    color: var(--cor1);
+    font-size: 0.8rem;   
+}
+
+.pag img{
+    padding-top: 8%;
+}
+
  
