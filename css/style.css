@@ -1,0 +1,15 @@
+/*Configurações da fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+
+/* Configurações da cores */
+
+:root{
+   --cor1:#c9b065;
+   --cor2:#0a1130;
+   --cor3:#7d6a32;
+   --cor4:#ffffff;
+   --cor5:#667ecd;
+   --cor6:#a25b5b;
+
+}
