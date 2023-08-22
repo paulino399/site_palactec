@@ -113,4 +113,56 @@ logar{
     margin-bottom: 3%;
 }
 
+
+.logar input[type="button"]{
+    width: 250px;
+    height: 50px;
+    background-color: var(--cor2);
+    border: none;
+    margin-top: 3%;
+border-radius: 10px;
+color: var(--cor4);
+}
+
+.logar input[type="button"]:hover{
+    background-color:  var(--cor3);
+    cursor: pointer;   
+}
+
+.logar img{
+    margin-left: 50px;
+}
+
+.logar #id_hoje{
+    position: absolute;
+    font-size: 1.5rem;
+    padding: 2% 16%;
+    line-height: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color: var(--cor2);
+}
+
+.logar #p_hoje{
+    position: absolute;
+    padding: 4% 17%;
+    line-height: 1.2rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    color: var(--cor2);
+}
+
+.logar a{
+    position: absolute;
+    padding: 0.5% 1.5%;
+    background-color: var(--cor2);
+    color: var(--cor4);
+    margin: 10%  3%;
+    border-radius: 10px;
+}
+.logar a:hover{
+    background-color:  var(--cor3);
+    cursor: pointer;
+}
+
  
