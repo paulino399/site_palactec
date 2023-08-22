@@ -49,7 +49,7 @@
         </div>
 
         <div class="cad">
-            <img src="/img/palanca.png" alt="PalancaShoping">
+            <img src="img/PC.png" alt="PalancaShoping">
         </div>
 
     </div>
