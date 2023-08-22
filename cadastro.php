@@ -41,7 +41,7 @@
 
                 <input type="radio" id="masculino" name="sexo" value="Masculino" name="sexo">Masculino<br>
 
-                <input type="button"  name="submit" id="b-cadastro"  value="CADASTRAR">
+                <input type="submit"  name="submit" id="button"  value="CADASTRAR">
 
             </form>
 
