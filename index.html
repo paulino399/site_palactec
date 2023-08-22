@@ -26,5 +26,77 @@
 </nav>
 </header>
 
+ <!-- INÍCIO DA CONSTRUÇÃO DO BANNER -->
+ <main>
+    <div class="banner">
+        <div class="cycle-slideshow"
+            data-cycle-fx="scrollHorz"
+            data-cycle-pause-on-hover="true"
+            data-cycle-speed="400">
+            <img src="img/celular.png" alt="Celulares PalancaShopping">
+            <img src="img/roupa.png" alt="Roupas PalancaShopping">
+            <img src="img/tenis.png" alt="Tênis PalancaShopping">
+        </div>
+    </div>
+
+  <!-- INÍCIO DAS PROMOÇÕES - CARDS -->
+  <div class="cards">
+    <div class="produtos">
+        <img src="img/nike.png" alt="Nike-PalancShopping">
+        <h2>Nike Air</h2>
+        <p>AOA$ 5.999,99</p>
+        <a href="#">SAIBA MAIS</a>
+    </div>
+
+    <div class="produtos">
+        <img src="img/mobile.png" alt=" Celular-PalancShopping">
+        <h2>Celular Sansumg</h2>
+        <p>AOA$ 94.500,45</p>
+        <a href="#">SAIBA MAIS</a>
+    </div>
+
+    <div class="produtos">
+        <img src="img/computer.png" alt=" Computador-PalancShopping">
+        <h2>Computador Dell</h2>
+        <p>AOA$ 275.875,99</p>
+        <a href="#">SAIBA MAIS</a>
+    </div>
+
+    <div class="produtos">
+        <img src="img/perfume.png" alt=" Jasmin Noiar-PalancShopping">
+        <h2>Jasmin Noiar</h2>
+        <p>AOA$ 45.397,95</p>
+        <a href="#">SAIBA MAIS</a>
+    </div>
+</div>
+<!--FIM DA PROMOCÃO  DOS CARDS-->
+
+ </main>
+
+
+
+
+
+
+
+
+    <!-- Configurações do JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="projeto.js"></script>
+
+<!-- Configurações do JavaScript para as imagens que fazem a troca automatico -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.cycle-slideshow').cycle({
+            fx: 'scrollHorz', // Efeito de movimento horizontal
+            pauseOnHover: true, // Pausar ao passar o mouse
+            speed: 400, // Velocidade de transição
+            timeout: 3000 // Tempo entre as transições (em milissegundos)
+        });
+    });
+</script>
+
 </body>
 </html>
