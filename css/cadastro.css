@@ -44,9 +44,13 @@ body{
     box-shadow: 0px 4px 3px var(--cor2);
  }
 
+ .logo img{
+    margin:-4px 80% 0 0;
+ }
+
  nav li{
     display: inline-block;
-    margin: -4rem 1rem;
+    margin: 0 1rem;
    
 }
 
