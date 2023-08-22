@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>PalancaTech</title>
-   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./css/cadastro.css">
  <!-- <link rel="shortcut icon" href="img/palanca1.png" type="image/x-icon"> --> 
 </head>
 <body>
@@ -25,6 +25,36 @@
      </ul>
 </nav>
 </header>
+
+<!-- INÍCIO DA CONSTRUÇÃO Do Formulario Cadastro -->
+
+<div class="cadastro">
+        <div class="cad" id="cadastro">
+            <h1>Cadastro de Clientes</h1>
+            <form action="#" method="post">
+                <input type="text" id="name" placeholder="Digite seu nome completo"><br>
+
+                <input type="email" id="email" placeholder="Digite seu e-meil"><br>
+
+                <input type="password" id="senha" placeholder="Digite uma senha segura"><br>
+
+                <input type="radio" id="feminino" value="Feminino" name="sexo">feminino
+
+                <input type="radio" id="masculino" value="Masculino" name="sexo">Masculino<br>
+
+                <input type="button"  id="b-cadastro" value="CADASTRAR">
+
+            </form>
+
+        </div>
+
+        <div class="cad">
+            <img src="/img/palanca.png" alt="PalancaShoping">
+        </div>
+
+    </div>
+
+    <!-- FIM DA CONSTRUÇÃO Do Formulario Cadastro -->
 
 
 
