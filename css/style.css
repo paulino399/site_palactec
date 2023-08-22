@@ -169,3 +169,24 @@ main{
     font-weight: bold;
 }
  
+
+/******* Formatação do Rodapé**************/
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--cor3);
+    color: var(--cor4);
+    padding-top: 2%;
+    text-align: center;
+ 
+ }
+ 
+ .rodape a{
+     font-size: 0.8rem;
+     color: var(--cor4);
+ }
+ 
+ .rodape img{
+     padding: 5%;
+ }
