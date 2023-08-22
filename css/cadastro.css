@@ -135,7 +135,7 @@ footer{
 }
 
 #cadastro input[type="button"]:hover{
-    background-color: var(--cor3);
+    background-color: var(--cor7);
     cursor: pointer;
 }
 
