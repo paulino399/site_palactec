@@ -142,4 +142,30 @@ main{
     padding-top: 8%;
 }
 
+
+/*************Formatação das oferatas do dia************/
+.tit_dia{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: var(--cor4);
+    color: var(--cor2);
+    margin: 2% auto;
+    padding: 2%;
+}
+
+.dia{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--cor4);
+    margin: -3% auto;
+}
+
+.prod_dia{
+    margin: 3%;
+}
+
+.prod_dia h3{
+    font-weight: bold;
+}
  
