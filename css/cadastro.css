@@ -1,0 +1,80 @@
+/*Configurações da fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+
+/* Configurações da cores */
+
+:root{
+   --cor1:#c9b065;
+   --cor2:#0a1130;
+   --cor3:#7d6a32;
+   --cor4:#ffffff;
+   --cor5:#667ecd;
+   --cor6:#a25b5b;
+}
+
+/* Configurações do navegadores */
+
+*{
+    font-family: 'roboto', sans-serif;
+     font-size: 18px; 
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Formatação do body */
+
+body{
+    background-color: var(--cor3);
+ }
+
+ header{
+    max-width: 95%;
+    height: auto;
+    margin: 0 auto;
+    background-color: var(--cor1);
+    text-align: center;
+    border-radius:0px 0px 12px 12px ;
+    padding-top: 18px;
+    box-shadow: 0px 4px 3px var(--cor2);
+ }
+
+ nav li{
+    display: inline-block;
+    margin: 2rem 1rem;
+}
+
+nav a{
+    color: var(--cor4);
+}
+
+nav a:hover{
+    color: var(--cor2);
+    border-bottom: 4px solid;
+}
+
+
+/******* Formatação do Rodapé**************/
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--cor3);
+    color: var(--cor4);
+    padding-top: 2%;
+    text-align: center;
+ 
+ }
+ 
+ .rodape a{
+     font-size: 0.8rem;
+     color: var(--cor4);
+ }
+ 
+ .rodape img{
+     padding: 5%;
+ }
