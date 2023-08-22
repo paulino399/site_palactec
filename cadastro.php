@@ -31,17 +31,17 @@
         <div class="cad" id="cadastro">
             <h1>Cadastro de Clientes</h1>
             <form action="#" method="post">
-                <input type="text" id="name" placeholder="Digite seu nome completo"><br>
+                <input type="text" id="name"  name="nome" placeholder="Digite seu nome completo"><br>
 
-                <input type="email" id="email" placeholder="Digite seu e-meil"><br>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-meil"><br>
 
-                <input type="password" id="senha" placeholder="Digite uma senha segura"><br>
+                <input type="password" id="senha"  name="senha" placeholder="Digite uma senha segura"><br>
 
-                <input type="radio" id="feminino" value="Feminino" name="sexo">feminino
+                <input type="radio" id="feminino" name="sexo" value="Feminino" name="sexo">feminino
 
-                <input type="radio" id="masculino" value="Masculino" name="sexo">Masculino<br>
+                <input type="radio" id="masculino" name="sexo" value="Masculino" name="sexo">Masculino<br>
 
-                <input type="button"  id="b-cadastro" value="CADASTRAR">
+                <input type="button"  name="submit" id="b-cadastro"  value="CADASTRAR">
 
             </form>
 
