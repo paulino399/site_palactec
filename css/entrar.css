@@ -84,4 +84,33 @@ footer{
  }
 
 
+ /*************CONFIGURAções do Login *************/
+
+.login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: var(--cor1);
+    margin: 2% auto;
+    width: 90%;
+    border-radius: 10px 10px 0 0;
+}
+
+logar{
+    width: 80%;
+}
+
+#logar1{
+    width: 95%;
+}
+
+.logar h1{
+    font-size: 1.8rem;
+    text-align: center;
+    color: var(--cor2);
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+
  
