@@ -11,6 +11,7 @@
    --cor4:#ffffff;
    --cor5:#667ecd;
    --cor6:#a25b5b;
+   --cor7:gray;
 }
 
 /* Configurações do navegadores */
@@ -29,7 +30,7 @@
 /* Formatação do body */
 
 body{
-    background-color: var(--cor3);
+    background-color: var(--cor7);
  }
 
  header{
@@ -63,7 +64,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--cor3);
+    background-color: var(--cor7);
     color: var(--cor4);
     padding-top: 2%;
     text-align: center;
@@ -87,7 +88,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    background-color: var(--cor1);
+    background-color: var(--cor3);
     margin: 2% auto;
     width: 90%;
     border-radius: 10px 10px 0 0;
@@ -139,7 +140,7 @@ footer{
 }
 
 .cad img{
-    width: 70%;
-    height: 70%;
+    width: 50%;
+    height: 50%;
     margin-top:0;
 }
