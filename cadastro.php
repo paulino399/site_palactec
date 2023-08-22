@@ -25,7 +25,6 @@
      </ul>
 </nav>
 </header>
-
 <!-- INÍCIO DA CONSTRUÇÃO Do Formulario Cadastro -->
 
 <div class="cadastro">

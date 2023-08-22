@@ -34,23 +34,25 @@ body{
  }
 
  header{
-    max-width: 95%;
-    height: auto;
+    max-width: 98%;
+    height:100px;
     margin: 0 auto;
     background-color: var(--cor1);
     text-align: center;
     border-radius:0px 0px 12px 12px ;
-    padding-top: 18px;
+    padding-top: 16px;
     box-shadow: 0px 4px 3px var(--cor2);
  }
 
  nav li{
     display: inline-block;
-    margin: 2rem 1rem;
+    margin: -4rem 1rem;
+   
 }
 
 nav a{
     color: var(--cor4);
+    font-size: 0.8rem;
 }
 
 nav a:hover{
@@ -89,7 +91,7 @@ footer{
     align-items: center;
     text-align: center;
     background-color: var(--cor3);
-    margin: 2% auto;
+    margin: 1% auto;
     width: 90%;
     border-radius: 10px 10px 0 0;
     color: var(--cor4);
