@@ -47,4 +47,14 @@ body{
     display: inline-block;
     margin: 2rem 1rem;
 }
+
+nav a{
+    color: var(--cor4);
+}
+
+nav a:hover{
+    color: var(--cor2);
+    border-bottom: 4px solid;
+}
+
  
