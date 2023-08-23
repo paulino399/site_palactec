@@ -38,7 +38,10 @@
     </div>
 </section>
 
-
+    <section class="usuario">
+        <h2>Olá, Nome do Cliente</h2>
+        <p>Seja Bem-Vindo à PalancaTec</p>
+    </section>
       <!--inserir e Inicio do Rodape-->
 
       <footer>
