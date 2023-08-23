@@ -31,6 +31,8 @@ if(isset($_POST['submit'])  && !empty($_POST['email'])   && !empty($_POST['senha
         header('Location:entrar.php');
     }
     else{
+
+        //Criar as varias caso não falte dados
         $_SESSION['email_cliente'] = $email;
         $_SESSION['senha_cliente'] = $senha;
         header('Location:usuario.php');
