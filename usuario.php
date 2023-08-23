@@ -52,6 +52,7 @@ else{
      </ul>
 </nav>
 </header>
+
 <!-- INÍCIO DA CONSTRUÇÃO DA SESSÃO DO USUARIO -->
 
 
@@ -61,7 +62,7 @@ else{
     </div>
 
     <div class="barra">
-        <a href="index.html">SAIR</a>
+        <a href="sair.php">SAIR</a>
     </div>
 </section>
 
@@ -70,7 +71,7 @@ else{
         
  <?php
 
-  echo"<h2>Olá, $logado /h2>";
+  echo"<h2>Olá, $logado </h2>";
 
  ?>
         <p>Seja Bem-Vindo à PalancaTec</p>

@@ -1,5 +1,9 @@
 <?php
 
+
+//criar uma sessão 
+
+session_start();
 // Destruir as variaveis 
 
 unset($_SESSION['email_cliente']);
