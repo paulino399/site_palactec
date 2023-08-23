@@ -114,6 +114,12 @@
 if(isset($_POST['submit'])){
 
     include_once('conectar.php');
+
+
+    $nome = $_POST['nome'];
+    $nome = $_POST['email'];
+    $nome = $_POST['senha'];
+    $nome = $_POST['sexo'];
 }
 
 
