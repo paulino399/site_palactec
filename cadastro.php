@@ -106,5 +106,18 @@
     });
 </script>
 
+
+<!-- Configuração do PHP -->
+
+<?php
+
+if(isset($_POST['submit'])){
+
+    include_once('conectar.php');
+}
+
+
+?>
+
 </body>
 </html>
