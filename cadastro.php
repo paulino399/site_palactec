@@ -31,7 +31,7 @@
         <div class="cad" id="cadastro">
             <h1>Cadastro de Clientes</h1>
             <form action="#" method="post">
-                <input type="text" id="name"  name="nome" placeholder="Digite seu nome completo"><br>
+                <input type="text" id="nome"  name="nome" placeholder="Digite seu nome completo"><br>
 
                 <input type="email" id="email" name="email" placeholder="Digite seu e-meil"><br>
 
@@ -117,9 +117,9 @@ if(isset($_POST['submit'])){
 
 
     $nome = $_POST['nome'];
-    $nome = $_POST['email'];
-    $nome = $_POST['senha'];
-    $nome = $_POST['sexo'];
+    $email = $_POST['email'];
+    $senha = $_POST['senha'];
+    $sexo = $_POST['sexo'];
 
     $clientes = mysqli_query($conexao, "INSERT INTO cadastro_cliente(nome_cliente, email_cliente, senha_cliente, sexo_cliente) VALUE ('$nome', '$email', '$senha', '$sexo')");
 }
