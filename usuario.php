@@ -25,7 +25,6 @@ else{
 ?>
 
 
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -68,7 +67,12 @@ else{
 
 
  <section class="usuario">
-        <h2>Olá, Nome do Cliente</h2>
+        
+ <?php
+
+  echo"<h2>Olá, $logado /h2>";
+
+ ?>
         <p>Seja Bem-Vindo à PalancaTec</p>
 </section>
 
