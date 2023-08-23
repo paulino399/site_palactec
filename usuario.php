@@ -1,3 +1,31 @@
+<!-- Configurações do PHP-->
+
+<?php
+
+// iniciar uma sessão 
+
+session_start();
+
+if((!isset($_SESSION['email_cliente'])==true )
+and (!isset($_SESSION['senha_cliente'])==true))
+{
+    //destruir as variaveis
+    unset($_SESSION['email_cliente']);
+    unset($_SESSION['senha_cliente']);
+    header('Location:entrar.php');
+}
+
+else{
+    //criar uma varivel de acesso
+    $logado = $_SESSION['email_cliente'];
+}
+
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
