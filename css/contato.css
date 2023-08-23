@@ -31,7 +31,7 @@
 /* Formatação do body */
 
 body{
-    background-color: var(--cor7);
+    background-color: var(--cor3);
 }
 
 header{
@@ -66,7 +66,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--cor7);
+    background-color: var(--cor3);
     color: var(--cor4);
     padding-top: 2%;
     text-align: center;
@@ -109,6 +109,11 @@ footer{
     margin-bottom: 3%;
 }
 
+.cont form{
+  
+    text-align: center;
+}
+
 .cont input[type="text"], input[type="email"], input[type="tel"]{
     width: 400px;
     height: 35px;
@@ -127,9 +132,10 @@ footer{
     padding-top: 1%;
     border-radius: 10px;
     border: none;
+    resize: none;
 }
 
-.cont input[type="subimit"]{
+.cont input[type="submit"]{
     width: 250px;
     height: 50px;
     padding: 1%;
@@ -139,5 +145,14 @@ footer{
    margin-top: 3%;
    border-radius: 10px;
    cursor: pointer;
+}
+
+.cont input[type="submit"]:hover{
+    background-color: var(--cor3);
+}
+
+.cont img{
+    height: 600px;
+    margin-bottom: -0.7%;
 
 }
