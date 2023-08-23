@@ -15,15 +15,18 @@ if(isset($_POST['submit'])  && !empty($_POST['email'])   && !empty($_POST['senha
 
     //Verificar a tabela do  banco de dados
 
-    $sql ="SELECT * FROM  cadastro_cliente WHERE email_cliete = '$email' and senha_cliente = '$senha'";
+    $sql ="SELECT * FROM  cadastro_cliente WHERE email_cliente = '$email' and senha_cliente = '$senha'";
 
     $verificar = $conexao -> query($sql);
 
     // Verificar se o registro é valido 
 
-    if(mysql_num_rows ($verificar)<1)
+    if(mysqli_num_rows($verificar)< 1)
     {
-        
+        header('Location:entrar.php');
+    }
+    else{
+        header('Location:usuario.php');
     }
 }
 else{
