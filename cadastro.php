@@ -122,6 +122,8 @@ if(isset($_POST['submit'])){
     $sexo = $_POST['sexo'];
 
     $clientes = mysqli_query($conexao, "INSERT INTO cadastro_cliente(nome_cliente, email_cliente, senha_cliente, sexo_cliente) VALUE ('$nome', '$email', '$senha', '$sexo')");
+
+    header('Location:entrar.php')
 }
 
 
