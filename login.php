@@ -4,14 +4,14 @@
 
 if(isset($_POST['submit'])  && !empty($_POST['email'])   && !empty($_POST['senha']))
 {
-    //não esta vazio
+    //não esta vazio os campos 
     //Conectar o banco de dados
 
     include_once('conectar.php');
 
 //Local de armazenamento
     $email = $_POST['email'];
-    $email = $_POST['senha'];
+    $senha = $_POST['senha'];
 
     //Verificar a tabela do  banco de dados
 
@@ -30,7 +30,7 @@ if(isset($_POST['submit'])  && !empty($_POST['email'])   && !empty($_POST['senha
     }
 }
 else{
-//O campo esta vazio
+//Os campos estão vazio
 
 header('Location: entrar.php');
 
