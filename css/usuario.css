@@ -113,3 +113,13 @@ footer{
     padding: 2%;
     text-align: center;
  }
+
+ .usuario h2{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--cor2);
+ }
+
+ .usuario p{
+    color: var(--cor2);
+ }
