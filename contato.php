@@ -42,8 +42,7 @@
      <input type="tel" name="telefone" placeholder="Digite o seu Whatsapp">
      <br>
 
-     <textarea name="comentario" placeholder="Digite o seu comentario">
-     </textarea>
+     <textarea name="comentario" placeholder="Digite o seu comentário/duvida"></textarea>
 <br>
 
 <input type="submit" name="enviar" value="ENVIAR">
