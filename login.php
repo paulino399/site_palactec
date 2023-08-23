@@ -27,7 +27,7 @@ if(isset($_POST['submit'])  && !empty($_POST['email'])   && !empty($_POST['senha
     {
         //Destruir dados incompletos
         unset($_SESSION['email_cliente']);
-        unset($_SESSION['senha_cliente'])
+        unset($_SESSION['senha_cliente']);
         header('Location:entrar.php');
     }
     else{
