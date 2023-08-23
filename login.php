@@ -1,5 +1,7 @@
 <?php
 
+session_start(); //iniciar uma sessão
+
 // Verificar se houve uma acção da pagina entrar.php //
 
 if(isset($_POST['submit'])  && !empty($_POST['email'])   && !empty($_POST['senha']))
@@ -23,9 +25,14 @@ if(isset($_POST['submit'])  && !empty($_POST['email'])   && !empty($_POST['senha
 
     if(mysqli_num_rows($verificar)< 1)
     {
+        //Destruir dados incompletos
+        unset($_SESSION['email_cliente']);
+        unset($_SESSION['senha_cliente'])
         header('Location:entrar.php');
     }
     else{
+        $_SESSION['email_cliente'] = $email;
+        $_SESSION['senha_cliente'] = $senha;
         header('Location:usuario.php');
     }
 }
