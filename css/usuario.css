@@ -32,7 +32,7 @@
 /* Formatação do body */
 
 body{
-    background-color: var(--cor7);
+    background-color: var(--cor3);
 }
 
 header{
@@ -67,7 +67,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--cor7);
+    background-color: var(--cor3);
     color: var(--cor4);
     padding-top: 2%;
     text-align: center;
@@ -97,6 +97,16 @@ footer{
     border-radius: 10px 10px 0 0;
  }
 
- .barra_top h1{
+ .barra h1{
     color: var(--cor4);
+ }
+
+ .barra a{
+    color: var(--cor4);
+ }
+
+ .usuario{
+    width: 95%;
+    height: 500px;
+    background-color: var(--cor1);
  }
