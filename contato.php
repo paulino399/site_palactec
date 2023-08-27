@@ -32,7 +32,7 @@
 <div class="cont">
   <h1>FALE CONOSCO</h1>
 
-  <form action="#">
+  <form action="email.php" method="post">
 
      <input type="text" name="nome" placeholder="Digite o seu nome">
      <br>
@@ -109,8 +109,6 @@
         });
     });
 </script>
-
-
 
 </body>
 </html>
