@@ -1,3 +1,3 @@
 # site_palactec
 
-Desenvolvendo uma loja de compras onlyne
+Desenvolvendo uma loja de compras online
