@@ -33,7 +33,7 @@
             <form action="#" method="post">
                 <input type="text" id="nome"  name="nome" placeholder="Digite seu nome completo"><br>
 
-                <input type="email" id="email" name="email" placeholder="Digite seu e-meil"><br>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail"><br>
 
                 <input type="password" id="senha"  name="senha" placeholder="Digite uma senha segura"><br>
 
