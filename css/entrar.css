@@ -137,8 +137,8 @@ footer{
     background-color: var(--cor2);
     border: none;
     margin-top: 3%;
-border-radius: 10px;
-color: var(--cor4);
+   border-radius: 10px;
+   color: var(--cor4);
 }
 
 .logar input[type="submit"]:hover{
@@ -160,7 +160,7 @@ color: var(--cor4);
     line-height: 1.2rem;
     font-weight: 700;
     letter-spacing: 0.1rem;
-    color: var(--cor7);
+    color: var(--cor2);
 }
 
 .logar #p_hoje{
@@ -169,7 +169,7 @@ color: var(--cor4);
     line-height: 1.2rem;
     letter-spacing: 0.1rem;
     font-weight: 700;
-    color: var(--cor7);
+    color: var(--cor2);
 }
 
 .logar a{
