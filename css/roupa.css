@@ -74,9 +74,10 @@ main{
 }
 
 .cycle-slideshow img{
-    width: 100%;
+    width: 70vh;
     margin: 0 auto;
-    height: 100vh;
+    height: 70vh;
+    text-align: center;
 }
 
 
