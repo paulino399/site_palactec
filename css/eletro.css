@@ -94,6 +94,10 @@ main{
     grid-template-columns:repeat(4 , 25%);
 }
 
+.produtos img{
+    width: 300px; 
+    height: 300px;
+}
 
 .produtos h2{
     font-weight: 700;
